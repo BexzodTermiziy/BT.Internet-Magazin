@@ -1,0 +1,262 @@
+@font-face {
+    font-family: pts-700;
+    src: url(./fonts/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: pts-400;
+    src: url(./fonts/PTSans-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    height:6867px ;
+    background-color: #FFFFFF;
+}
+
+/* NAVBAR START */
+
+nav {
+    display: flex;
+    padding: 17px 150px 16px 180px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.navbar-words {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    padding-top: 4px;
+}
+
+.navbar-word-li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: pts-400;
+    color: #1D1818;
+}
+
+.navbar-word-li a:hover {
+    color: #ec1013;
+   
+}
+
+select {
+    border: none;
+    font-size: 18px;
+    font-family: pts-700;
+    color: #1D1818;
+}
+
+#navbar-li {
+    padding-right: 730px;
+}
+
+/* NAVBAR END */
+
+/* ArkoMebel START */
+.arkomebel {
+    display: flex;
+    margin: 12px 0px 14px 180px;
+}
+
+.mebel {
+    display: flex;
+}
+
+.arkomebel-img {
+    margin-right: 99px;
+}
+
+.arko-p1 {
+    font-size: 16px;
+    font-family: pts-400;
+    color: #1D1818;
+    margin-right: 67px;
+    margin-top: 5px;
+}
+
+.arko-p2  a{
+    font-size: 18px;
+    font-family: pts-400;
+    color: red;
+}
+
+.search {
+    display: flex;
+    width: 296px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #A8D1E7;
+    margin-right: 72px;
+    margin-top:5px ;
+    /* text-align: center; */
+}
+
+input {
+    padding: 14px 60px 18px 25px;
+    border: none;
+    background-color: inherit;
+}
+
+.search-img {
+    margin-top: 10px;
+}
+
+.number-span {
+    font-size: 22px;
+    font-family: pts-700;
+    color: #1D1818;
+    margin-right: 67px;
+}
+
+.number-button {
+    width: 177px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #E13B3F;
+    background-color: inherit;
+    color: #E13B3F;
+    font-size: 18px;
+    font-family: pts-400;
+    margin-top: 7px;
+}
+
+.number {
+    margin-right:20px;
+}
+
+.mebel-1 {
+    margin-right: 39px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.mebel-2 {
+    position: relative;
+    margin-right: 39px;
+    margin-top: 7px;
+}
+
+.mebel-div {
+    position: absolute;
+    top: -2px;
+    left: 35px;
+    text-align: center;
+    width:36px ;
+    height: 19px;
+    border-radius: 7px;
+    background-color: #E13B3F;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: pts-400;
+}
+
+#mebel-3 {
+    margin-top: 0.5px;
+}
+
+.mebel-p {
+    font-size: 18px;
+    font-family: pts-400;
+    margin-top: 7px;
+}
+/* ArkoMebel END */
+
+/* Menu START */
+.menu-ul {
+    display: flex;
+    gap: 95px;
+    background-color: #A8D1E7;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    font-size: 20px;
+    font-family: pts-700;
+    padding-left: 180px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.menu-ul a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: pts-700;
+    color: #1D1818;
+}
+
+.city {
+    margin-top: 17px;
+}
+
+.box #menu-ul-li {
+    background-color:#A8D1E7;
+    /* padding: 0px 20px; */
+    /* margin-top:-5px; */
+    font-size: 20px;
+    font-family: pts-700;
+    cursor: pointer;
+}
+
+.box .menu-2-alfa {
+    display: block;
+    padding: 2px 30px;
+    color: #1D1818;
+    font-size: 18px;
+    font-family: pts-400;
+    text-decoration: none;
+}
+
+.box .menu-2 {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px #e9e9e9, -1px 5px #e9e9e9;
+    z-index: 1;
+}
+
+.box:hover .menu-2 {
+    display: block;
+}
+
+.box .menu-2-alfa:hover {
+    background-color:#d8d5d5 ;
+}
+
+#box-2:hover #menu-ul-li {
+    color: #818080;
+}
+
+#box-2:hover #menu-windows {
+    color: #818080;
+}
+
+.menu-li {
+    width: 191px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #384685;
+    color: #ffffff;
+    font-size: 20ox;
+    font-family: pts-700;
+    padding: 18px 0px 20px 20px;
+}
+
+.menu-li a  {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.air-grey {
+    width: 1520px;
+    height: 387px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    margin: 42px 201px 115px 180px;
+}
+/* Menu END */
