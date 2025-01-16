@@ -97,6 +97,8 @@ select {
     margin-right: 72px;
     margin-top:5px ;
     /* text-align: center; */
+    box-shadow: 2px 2px 5px #A8D1E7;
+    cursor: pointer;
 }
 
 input {
@@ -126,6 +128,12 @@ input {
     font-size: 18px;
     font-family: pts-400;
     margin-top: 7px;
+    box-shadow: 2px 2px 5px #E13B3F;
+    cursor: pointer;
+}
+
+.number-button:hover {
+    transform: translate(2px,1px);
 }
 
 .number {
@@ -181,6 +189,7 @@ input {
     padding-left: 180px;
     list-style-type: none;
     cursor: pointer;
+    box-shadow: 2px 2px 5px #A8D1E7;
 }
 
 .menu-ul a {
@@ -258,5 +267,178 @@ input {
     border-radius: 10px;
     background-color: #C4C4C4;
     margin: 42px 201px 115px 180px;
+    box-shadow: 3px 3px 5px #000000a4;
 }
 /* Menu END */
+
+/* НАШИ ПРЕИМУЩЕСТВА START */
+.fox-h1 {
+    color: #000000;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-left: 180px;
+    margin-bottom: 34px;
+}
+
+.fox-book {
+    display: flex;
+}
+
+#books-1 {
+    margin-left: 180px;
+}
+
+.books {
+    width: 357px;
+    height: 94px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    display: flex;
+    margin-right: 31px;
+    padding: 25px 20px 25px 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #F4F4F4;
+}
+
+.books:hover {
+    transform: translate(3px,3px);
+}
+
+.books-p {
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #000000;
+    font-size: 18px;
+    font-family: pts-700;
+}
+
+.books-p2 {
+    color: #000000;
+    font-size: 16px;
+    font-family: pts-400;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+#books-p-text {
+    margin-top: -30px;
+}
+/* НАШИ ПРЕИМУЩЕСТВА END */
+
+/* КАТАЛОГ START */
+.Katalog {
+    margin-left: 180px;
+}
+
+.katalog-h1 {
+    margin-top: 62px;
+    margin-bottom: 39px;
+    color: #000000;
+    font-size: 30px;
+    font-family: pts-700;
+}
+
+.katalog-top {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.katalog-top-2 {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-top: 39px;
+}
+
+.Kuxni {
+    position: absolute;
+    top: 195px;
+    width: 108px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-2 {
+    position: absolute;
+    top: 195px;
+    width: 167px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-3 {
+    position: absolute;
+    top: 195px;
+    width: 142px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-4 {
+    position: absolute;
+    top: 195px;
+    width: 157px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-5 {
+    position: absolute;
+    top: 195px;
+    width: 186px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-6 {
+    position: absolute;
+    top: 195px;
+    width: 137px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+
+.Kuxni-7 {
+    position: absolute;
+    top: 195px;
+    width: 226px;
+    height: 43px;
+    background-color: #384685;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    padding: 8px 16px 14px 16px;
+}
+/* КАТАЛОГ END */
