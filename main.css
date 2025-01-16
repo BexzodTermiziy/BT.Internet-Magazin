@@ -442,3 +442,220 @@ input {
     padding: 8px 16px 14px 16px;
 }
 /* КАТАЛОГ END */
+
+
+/* ПОПУЛЯРНЫЕ ТОВАРЫ START */
+.stars {
+    margin-top: 73px;
+    margin-left: 180px;
+}
+
+.stars-top {
+    width: 357px;
+    height: 618px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px 2px #0000001A;
+    padding-left: 31px;
+    /* transform: translate(50px, 50px); */
+}
+
+.stars-h1 {
+    color: #000000;
+    font-size:30px;
+    font-family: pts-700;
+    margin-bottom: 39px;
+}
+
+.stars-top-img {
+    padding-top: 37px;
+}
+
+.stars-p {
+    margin-top: 40px;
+    color: #000000;
+    font-size:18px;
+    font-family: pts-400;
+    margin-bottom: 39px;
+}
+
+.stars-h3 {
+    margin-top: 40px;
+    color: #000000;
+    font-size:25px;
+    font-family: pts-700;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    padding-top: 12px;
+    padding-bottom: 22px;
+    margin-bottom: 39px;
+}
+
+.stars-h3-span {
+    color: #BDBDBD;
+    font-size:18px;
+    font-family: pts-700;
+    padding-right: 12px;
+}
+
+.star-heart {
+    position: relative;
+}
+
+/*  */
+
+/* dropdawn */
+
+/*  */
+
+
+.top-dropdawn {
+    display: flex;
+}
+
+.top-div-1 {
+    width: 82px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #384685;
+    margin-top: 16px;
+    margin-bottom: 19px;
+    margin-right: 19px;
+}
+
+.top-div-2 {
+    width: 82px;
+    height: 5px;
+    border-radius: 2px;
+    border: 1px solid #384685;
+    background-color: #ffffff;
+    margin-top: 16px;
+    margin-right: 19px;
+}
+
+.top-div-3 {
+    width: 82px;
+    height: 5px;
+    border-radius: 2px;
+    border: 1px solid #384685;
+    background-color: #ffffff;
+    margin-top: 16px;
+}
+
+.top-dropdawn-p {
+    color: #000000;
+    font-size:18px;
+    font-family: pts-400;
+    margin-bottom: 29px;
+}
+
+.top-dropdawn-colors {
+    display: flex;
+    gap: 13px;
+}
+
+.top-dropdawn-h3 {
+    color: #000000;
+    font-size:25px;
+    font-family: pts-700;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.top-dropdawn-h3-span {
+    color: #BDBDBD;
+    font-size:18px;
+    font-family: pts-700;
+    padding-right: 12px;
+}
+
+.stars-button {
+    width: 220px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    transform: translate(5px, 5px);
+    color: #1D1818;
+    font-size: 20px;
+    font-family: pts-700;
+    padding: 15px 73px 12px 74px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.384);
+    border: 1px solid #384685
+}
+
+.stars-button:hover{
+    background-color: #384685;
+    color: #FFFFFF;
+    transform: translate(5px, 5px);
+    border: none;
+}
+
+.star-top-dropdawn {
+    position: absolute;
+    left: -31px;
+    top: -210px;
+    padding-left: 31px;
+    width: 357px;
+    height: 170px;
+    /* background-color: #a5a2a2;
+    box-shadow: 4px 4px 10px 2px #0000001A; */
+    z-index: 1;
+    display: block;
+}
+
+.dropdawn-hover {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: -0px;
+    padding-left: 31px;
+    width: 357px;
+    height: 180px;
+    background-color: #a5a2a2;
+    /* box-shadow: 4px 4px 10px 2px #0000001A; */
+    z-index: 1;
+    visibility: hidden;
+}
+.parvoz {
+    display: inline-block;
+}
+
+.parvoz:hover .dropdawn-hover {
+    display: block;
+    background-color: #ffffff;
+    z-index: 1;
+    visibility: visible;
+}
+
+.star-button-dropdawn {
+    display: flex;
+}
+
+.sbd-p1 {
+    color: #1D1818;
+    font-size: 18px;
+    font-family: pts-400;
+}
+
+.star-button-dropdawn {
+    position: absolute;
+    width: 357px;
+    background-color: #979292;
+    padding-left: 31px;
+    margin-top: 27px;
+    left: -32px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+
+
+.sbd-p2 {
+    color: #1D1818;
+    font-size: 16px;
+    font-family: pts-400;
+    margin-left: 12px;
+}
+/* ПОПУЛЯРНЫЕ ТОВАРЫ END */
