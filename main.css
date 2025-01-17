@@ -581,6 +581,7 @@ input {
     font-family: pts-700;
     padding: 15px 73px 12px 74px;
     cursor: pointer;
+    margin-bottom: 27px;
     box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.384);
     border: 1px solid #384685
 }
@@ -590,48 +591,40 @@ input {
     color: #FFFFFF;
     transform: translate(5px, 5px);
     border: none;
+    z-index: 2;
 }
 
 .star-top-dropdawn {
     position: absolute;
     left: -31px;
-    top: -210px;
+    top: -215px;
     padding-left: 31px;
     width: 357px;
-    height: 170px;
-    /* background-color: #a5a2a2;
-    box-shadow: 4px 4px 10px 2px #0000001A; */
-    z-index: 1;
-    display: block;
-}
-
-.dropdawn-hover {
-    display: none;
-    position: absolute;
-    left: -1px;
-    top: -0px;
-    padding-left: 31px;
-    width: 357px;
-    height: 180px;
-    background-color: #a5a2a2;
+    height: 220px;
+    background-color: #ffffff;
     /* box-shadow: 4px 4px 10px 2px #0000001A; */
     z-index: 1;
+    /* display: block; */
     visibility: hidden;
 }
+
 .parvoz {
     display: inline-block;
+    position: relative;
 }
 
-.parvoz:hover .dropdawn-hover {
-    display: block;
-    background-color: #ffffff;
-    z-index: 1;
+.parvoz:hover .star-button-dropdawn {
+    /* display: block; */
     visibility: visible;
+    z-index: 1;
 }
 
-.star-button-dropdawn {
-    display: flex;
+.parvoz:hover .star-top-dropdawn {
+    /* display: block; */
+    visibility: visible;
+    z-index: 1;
 }
+
 
 .sbd-p1 {
     color: #1D1818;
@@ -640,17 +633,23 @@ input {
 }
 
 .star-button-dropdawn {
+    display: flex;
+
+}
+
+.star-button-dropdawn {
+    height: 150px;
     position: absolute;
     width: 357px;
-    background-color: #979292;
+    background-color: #ffffff;
+    /* background-color: #979292; */
     padding-left: 31px;
     margin-top: 27px;
     left: -32px;
-    /* visibility: hidden; */
+    box-shadow: 3px 3px 5px #e7e6e6;
+    visibility: hidden;
     /* display: none; */
 }
-
-
 
 .sbd-p2 {
     color: #1D1818;
@@ -658,4 +657,58 @@ input {
     font-family: pts-400;
     margin-left: 12px;
 }
+
+/* DROP START */
+.drop {
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+    color: red;
+    cursor: pointer;
+}
+
+.drop:hover .fa-regular {
+    display: none;
+}
+
+.drop:hover .fa-solid {
+    visibility: visible;
+}
+
+.fa-regular {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 270px;
+    top: -60px;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+    left: 270px;
+    top: -60px;
+}
+
+.tooltext {
+    content: " ";
+    position: relative;
+    color: #757575;
+    font-size: 14px;
+    font-family: pts-400;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px 0px #0000001A;
+    width: 186px;
+    height: 79px;
+    border-radius: 2px;
+    left: 250px;
+    top: -105px;
+    visibility: hidden;
+}
+
+.drop:hover .tooltext {
+    visibility: visible;
+}
+
 /* ПОПУЛЯРНЫЕ ТОВАРЫ END */
