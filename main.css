@@ -450,6 +450,25 @@ input {
     margin-left: 180px;
 }
 
+.port {
+    display: flex;
+    gap: 1121px;
+    margin-top: 50px;
+}
+
+.stars-p-stars {
+    color: #1D1818;
+    font-size: 18px;
+    font-family: pts-400;
+    padding-top:20px;
+}
+
+.figma-tops {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
 .stars-top {
     width: 357px;
     height: 618px;
@@ -711,4 +730,393 @@ input {
     visibility: visible;
 }
 
+.stars-30 {
+    position: relative;
+}
+
+.stars-30-img {
+    position: absolute;
+    left: -20px;
+}
+
+.stars-30-p {
+    position: absolute;
+    top: 27px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: pts-400;
+}
+
+.stars-31-img {
+    position: absolute;
+    top: 25px;
+    left: -19px;
+}
+
+.surxon {
+    width: 284px;
+    height: 214px;
+}
+
+.termiz {
+    width: 284px;
+    height: 214px;
+} 
+
+
+.stars-30-1 {
+    position: relative;
+}
+
+.stars-32-img {
+    position: absolute;
+    top: 24px;
+    left: 60px;
+}
+
+.stars-30-p-2 {
+    position: absolute;
+    top: 27px;
+    left: 75px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: pts-400;
+}
+
+.uzb {
+    width: 1520px;
+    height: 75px;
+    border-radius: 5px;
+    background: #F2F2F2;
+    color: #1D1818;
+    font-size: 18px;
+    font-family: pts-400;
+    border: none;
+    margin-top: 37px;
+    cursor: pointer;
+    border: 1px solid #e6e4e4;
+    box-shadow: 3px 3px 5px #e6e4e4;
+}
+
+.uzb:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+#stars-p {
+    margin-top: -2px;
+    margin-bottom: -8px;
+}
+
 /* ПОПУЛЯРНЫЕ ТОВАРЫ END */
+
+/* ПОПУЛЯРНЫЕ КАТЕГОРИИ START */
+
+.angliya {
+    padding-left: 180px;
+    margin-top: 79px;
+}
+
+.angliya-h1 {
+    color: #000000;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-bottom: 40px;
+}
+
+.london {
+    gap: 34px;
+    margin-bottom: 15px;
+}
+
+.london-button {
+    margin-right: 34px;
+    width: 113px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.london-button:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.london-button-2 {
+    margin-right: 34px;
+    width: 142px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.london-button-2:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.london-button-3 {
+    margin-right: 34px;
+    width: 182px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.london-button-3:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.london-button-4 {
+    margin-right: 34px;
+    width: 149px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.london-button-4:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.london-button-5 {
+    margin-right: 34px;
+    width: 153px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.london-button-5:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.chelsi-button {
+    margin-right: 34px;
+    width: 144px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.chelsi-button:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.chelsi-button-2 {
+    margin-right: 34px;
+    width: 139px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #384685;
+    cursor: pointer;
+}
+
+.chelsi-button-2:hover {
+    background-color: #384685;
+    color: #ffffff;
+    transform: translate(3px,2px);
+}
+
+.chelsi {
+    margin-bottom: 15px;
+}
+
+.manchester-button {
+    
+}
+
+.manchester-button:hover {
+
+}
+/* ПОПУЛЯРНЫЕ КАТЕГОРИИ END */
+
+
+/* ТОВАРЫ ПО АКЦИИ START */
+.middle {
+    margin-left: 180px;
+    margin-top: 76px;
+}
+
+.middle-h1 {
+    color:#1D1818 ;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-bottom: 41px;
+}
+/* ТОВАРЫ ПО АКЦИИ END */
+
+/* НАШИ РАБОТЫ START */
+.footboll {
+    padding-left: 180px;
+    margin-top: 96px;
+}
+
+.futbol-text {
+    display: flex;
+    gap: 1120px;
+}
+
+.futbol-h1 {
+    color:#1D1818 ;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-bottom: 36px;
+}
+
+.futbol-p {
+    color:#1D1818 ;
+    font-size: 18px;
+    font-family: pts-400;
+    margin-bottom: 36px;
+}
+
+.tennis {
+    display: flex;
+}
+
+.tennis-2 {
+    width: 488px;
+    height: 833px;
+    background-image: url("./img/image\ 8.png");
+    margin-left: 28px;
+    box-shadow: 5px 5px 5px #d8d5d5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tennis-2:hover {
+    transform: translate(10px,20px);
+}
+
+.tennis-1-11:hover {
+    transform: translate(10px,20px);
+}
+
+.tennis-1-10-1:hover {
+    transform: translate(10px,20px);
+}
+
+.tennis-1-10-2:hover {
+    transform: translate(10px,20px);
+}
+
+.tennis-1-11 {
+    width: 1003px;
+    height: 430px;
+    background-image: url("./img/image\ 9.png");
+    box-shadow: 5px 5px 5px #d8d5d5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tennis-1-10 {
+    display: flex;
+}
+
+.tennis-1-10-1 {
+    width: 488px;
+    height: 374px;
+    background-image: url("./img/Group\ 4.png");
+    margin-right: 30px;
+    margin-bottom: 29px;
+    box-shadow: 5px 5px 5px #d8d5d5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tennis-1-10-2 {
+    width: 488px;
+    height: 374px;
+    background-image: url("./img/Group\ 5.png");
+    box-shadow: 5px 5px 5px #d8d5d5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tennis-2-button {
+    width: 210px;
+    height: 43px;
+    background: #384685;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    margin-top: 790px;
+}
+
+.tennis-1-11-button {
+    width: 193px;
+    height: 43px;
+    background: #384685;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    margin-top: 387px;
+}
+
+.tennis-1-10-1-img {
+    width: 206px;
+    height: 43px;
+    background: #384685;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    margin-top: 331px;
+}
+
+.tennis-1-10-2-img {
+    width: 257px;
+    height: 43px;
+    background: #384685;
+    border-bottom-left-radius: 10px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: pts-400;
+    margin-top: 331px;
+}
+/* НАШИ РАБОТЫ END */
