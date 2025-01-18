@@ -16,7 +16,7 @@
 
 .container {
     max-width: 1920px;
-    height:6867px ;
+    height:7367px ;
     background-color: #FFFFFF;
 }
 
@@ -959,14 +959,6 @@ input {
 .chelsi {
     margin-bottom: 15px;
 }
-
-.manchester-button {
-    
-}
-
-.manchester-button:hover {
-
-}
 /* ПОПУЛЯРНЫЕ КАТЕГОРИИ END */
 
 
@@ -1120,3 +1112,179 @@ input {
     margin-top: 331px;
 }
 /* НАШИ РАБОТЫ END */
+
+
+/*  НАШИ КОНТАКТЫ START */
+.tell {
+    margin-left: 180px;
+    margin-top: 65px;
+    display: flex;
+}
+
+.tell-1 {
+    padding-left: 53px;
+    padding-top: 52px;
+    background:#F3E7C699;
+    width:713px;
+    height:488px ;
+    background-image: url("./img/blue-master-bedroom-2021-08-26-15-32-55-utc\ 1.png");
+}
+
+.tell-2 {
+    width:808px;
+    height:488px ;
+    background-image: url("./img/Rectangle\ 49.png");
+}
+
+.tell-h1 {
+    color:#1D1818;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-bottom: 82px;
+}
+
+.tell-h3 {
+    color:#1D1818;
+    font-size: 25px;
+    font-family: pts-700;
+    margin-bottom: 32px;
+}
+
+.tell-p {
+    color:#1D1818;
+    font-size: 25px;
+    font-family: pts-700;
+    margin-bottom: 57px;
+}
+
+.tell-button {
+    width: 259px;
+    height:58px;
+    color:#FFFFFF;
+    font-size: 25px;
+    font-family: pts-700;
+    background: #384685;
+    border: none;
+    border-radius: 5px;
+}
+
+.tell-button:hover {
+    background: #102cac;
+}
+/*  НАШИ КОНТАКТЫ END */
+
+/* МЫ В INSTAGRAM START */
+.instagram {
+    margin-left: 180px;
+    margin-top: 105px;
+}
+
+.instagram-h1 {
+    margin-bottom: 42px;
+    color:#1D1818;
+    font-size: 30px;
+    font-family: pts-700;
+}
+
+.instagram-img {
+    margin-left: 170px;
+}
+/* МЫ В INSTAGRAM END */
+
+
+/* FOOTER START */
+.footer{
+    margin-top: 71px;
+    background: #384685;
+}
+
+footer {
+    margin-left: 180px;
+    margin-right: 159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arko-yellow {
+    position: absolute;
+    z-index: 0;
+    margin-top: 42px;
+    width: 38px;
+    height:38px;
+    border-radius: 50%;
+    background: #FFD60A;
+}
+
+.arko-h1 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10px;
+    color:#FFFFFF;
+    font-size: 30px;
+    font-family: pts-700;
+    margin-bottom: 36px;
+}
+
+.arko-img {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.arko-p {
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: pts-700;
+    margin-bottom: 21px;
+}
+
+.arko-left-p1 {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: pts-400;
+    margin-bottom: 15px;
+}
+
+.arko-left-p1 span {
+    margin-left: 26px;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-family: pts-400;
+}
+
+.arko-h2 {
+    color:#FFFFFF;
+    font-size: 22px;
+    font-family: pts-700;
+    margin-top: 47px;
+}
+
+.footer-kuxni {
+    list-style-type: none;
+    margin-top: 47px;
+    margin-left: 27px;
+}
+
+.footer-kuxni-li {
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: pts-700;
+    /* margin-bottom:25px; */
+}
+
+.footer-kuxni-li-2 {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: pts-400;
+    margin-top:25px;
+}
+
+.footer-2-h1 {
+    color:#DBDBDB;
+    font-size: 20px;
+    font-family: pts-400;
+    padding-top:63px;
+    padding-bottom:43px;
+    margin-left: 180px;
+}
+/* FOOTER END */
